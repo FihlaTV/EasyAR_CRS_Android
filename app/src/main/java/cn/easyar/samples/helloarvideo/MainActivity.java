@@ -21,6 +21,8 @@ import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
+import com.idogfooding.easyarcrs.R;
+
 import java.util.HashMap;
 
 import cn.easyar.Engine;

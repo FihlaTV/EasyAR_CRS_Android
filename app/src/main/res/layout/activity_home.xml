@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <Button
+        android:id="@+id/btn_ar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startAR"
+        android:text="Start AR"/>
+
+    <Button
+        android:id="@+id/btn_crs_manager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="startCRSManager"
+        android:text="CRS MANAGER"/>
+
+</LinearLayout>
