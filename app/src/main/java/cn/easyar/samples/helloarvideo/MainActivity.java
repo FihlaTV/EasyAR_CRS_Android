@@ -11,16 +11,15 @@ package cn.easyar.samples.helloarvideo;
 import android.Manifest;
 import android.annotation.TargetApi;
 import android.content.pm.PackageManager;
-import android.content.res.Configuration;
 import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.ViewGroup;
 import android.view.WindowManager;
-import android.util.Log;
 
 import java.util.HashMap;
 
@@ -38,7 +37,7 @@ public class MainActivity extends AppCompatActivity
     *  3. find the created item in the list and show key
     *  4. set key string bellow
     */
-    private static String key = "===PLEASE ENTER YOUR KEY HERE===";
+    private static String key = "FOjYEEh1CQt8nPtqIItDJNiZbOqLNxZFbq2KVmbqwfMHXaC3zvW2Y25I1XcH4RFOEKYniEWbTnTpEuIIdy42VFnNRJJic102ZibKrh8nnHn6rTSnIK4ny88qTE1x04hOCCnKqLd2Bu9JEMdhPnntnQdUtJLVqewbejTG047bGWPRTJUh8ductla1VIzWq5Mmno8695KP";
     private GLView glView;
 
     @Override
